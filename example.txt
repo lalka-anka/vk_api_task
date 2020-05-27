@@ -1,0 +1,6 @@
+Возможные способы запуска:
+python3 8_task.py -uid lalka_anka -tkn YOUR_APP_TOKEN
+python3 8_task.py -uid 7745017 -tkn YOUR_APP_TOKEN
+python3 8_task.py -uid id77745017 -tkn YOUR_APP_TOKEN
+
+Если пользователя с таким id не существует или профиль приватный, то будет выброшен KeyError.
